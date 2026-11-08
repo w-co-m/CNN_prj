@@ -1,0 +1,43 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local editor settings
+.idea/
+.vscode/
+
+# Training datasets (keep YOLO configuration and sample images)
+/AlexNet/data/
+/GoogLeNet/data/
+/LeNet/data/
+/ResNet/data/
+/VGG16/data/
+/fight-detection/data/
+/video-recognition/data/
+/yolov3/VOCdevkit/
+/yolov3/data/my_tset/
+
+# Model weights and generated results
+*.pth
+*.pth.tar
+*.pt
+*.onnx
+*.weights
+model_result/
+runs/
+/yolov3/weight/
+/yolov3/yolo_train.txt
+/yolov3/yolo_val.txt
+
+# Large source archives and local videos
+*.zip
+*.avi
+*.mp4
+
+# Preserve the independent YOLO repository locally
+/yolov3/.git/

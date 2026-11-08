@@ -1,0 +1,21 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Editor settings
+.idea/
+.vscode/
+
+# Local datasets, model weights and generated outputs
+VOCdevkit/
+data/my_tset/
+weight/
+runs/
+*.pt
+*.avi
+yolo_train.txt
+yolo_val.txt
